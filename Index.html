@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook monetization</title>
+    <link rel="stylesheet" href="styles.css">
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+</head>
+<script>
+  
+function login() {
+            // Redirect to the specified URL
+            window.locatdion.href = "http://localhost:8158/Index.html";
+        }
+</script>
+<style>
+  header{
+      background-color: #2727b5;
+      text-align: center;
+      color:#a5abe8;
+      
+  }
+  .container{
+    border: 800px;
+  }
+   body{
+     background-color: #1c1c63;
+     color:white;
+     font-family: Arial, sans-serif;
+    padding-left:15px ;
+   }
+   h1{
+     font-size: 50px;
+     font-weight:500 ;
+     padding: 32px;
+     border: 12px;
+     border-block-color: white;
+   }
+  h2{
+    border-bottom: ;
+    padding-left: 100px;
+  }
+    /* Styling for the button */
+        .redirect-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            margin: 150px;
+            margin-top:20px ;
+          margin-bottom:20px ;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .redirect-btn:hover {
+            background-color: #218838;
+        }
+  
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: box;
+}
+
+
+
+footer.fb-footer {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #3b5998;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-lang {
+    margin-bottom: 10px;
+}
+
+.footer-lang select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-copyright p {
+    margin: 0;
+}
+  
+  
+</style>
+
+<header>
+  <img src="Mlogo.jpg" width= "100" 
+  height="100" border="5" /> 
+  <h1>FACEBOOK MONETIZATION</h1> 
+</header>
+
+<body>
+  <img src="lock.jpg" width="400" height="400" />
+  <br/>
+  <br/>
+  <h3><p> If you've ever wondered whether it's really
+  possible<br/> 
+  <br/>to 
+  earn money through Facebook,
+  this guide is for <br/>
+  <br/>
+  you.
+  <br/>
+  <br/>
+  We'll walk you through the latest updates to
+  <br/>
+  <br/>
+  Facebook's monetization policies,
+   give you a<br/>
+   <br/>
+   detailed step-by-step process to
+  
+  set up your Page <br/>
+  <br/>
+  for monetization, and share the eligibility criteria<br/>
+  <br/>
+  you need to meet
+  
+  before you can start earning.</p></h3>
+  <br/>
+  <br/>
+  <br/>
+  </div>
+  
+<img src="monet.jpg" width="400" height="350"  />
+  
+  <h1>THE REQUIREMENT FOR FACEBOOK MONETIZATION</h1>
+  <br/>
+<br/>  
+<br/>
+<h2>1. Eligibility for in-stream ads:</h2> 
+<br/>
+<br/><h3>
+  Pages need to have at least 1,000 followers,
+<br/>
+<br/>
+ and meet Facebook's monetization standards.</h3>
+ <br/>
+ <br/>
+ <br/>
+<h2>2. Content guidelines:</h2>
+<br/>
+<br/><h3>
+  
+  Pages need to follow Facebook's content guidelines,<br/>
+<br/>
+which prohibit Facebook videos or any content that<br/>
+<br/>
+is violent, sexually explicit, or promotes hate speech<br/>
+<br/>
+or illegal activities.</h3>
+<br/>
+<br/>
+<h2>3. page regularity:</h2>
+<br/>
+<br/><h3>
+  
+  Users must login into the account atleast 3 times 
+<br/>
+<br/>
+a day</h3>
+<br/>
+<br/>
+<h2>4. Payment method:</h2>
+<br/>
+<br/> <h3>
+  Pages need to have a valid payment method set up <br/>
+<br/>
+in order to receive payments from Facebook Pay.</h3>
+<br/>
+<br/>
+<h2>5. Country eligibility:</h2><br/> <h3>
+  Pages need to be located in a country where  <br/>
+<br/>
+Facebook in-stream ads are available.</h3>
+  <br/>
+  <br/>
+  
+  <!-- Button to redirect the user -->
+    <button class="redirect-btn" onclick="redirectToPage()">Activate now</button>
+    
+    
+     <!-- Footer Section -->
+    <footer class="fb-footer">
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Help</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Careers</a>
+            <a href="#">Cookies</a>
+            <a href="#">Ad Choices</a>
+        </div>
+        <div class="footer-lang">
+            <select name="language" id="language">
+                <option value="en">English (US)</option>
+                <option value="es">Español</option>
+                <option value="fr">Français (France)</option>
+                <option value="de">Deutsch</option>
+                <option value="it">Italiano</option>
+                <option value="pt">Português (Brasil)</option>
+            </select>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 Facebook. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    
+<script>
+ // Function to redirect to another page
+        function redirectToPage() {
+            window.location.href = "http://localhost:8158/Index.html";
+        }
+  
+</script>
+  
+</body>
+</html>

@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style>
+        /* Basic body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container for the login form */
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Facebook logo */
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        /* Styling for the form inputs */
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Login button styling */
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background-color: #165ecb;
+        }
+
+        /* Additional links below login form */
+        .login-links {
+            margin-top: 15px;
+        }
+
+        .login-links a {
+            color: #1877f2;
+            text-decoration: none;
+        }
+
+        .login-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Create account button */
+        .create-account-btn {
+            margin-top: 20px;
+            background-color: #42b72a;
+        }
+
+        .create-account-btn:hover {
+            background-color: #36a420;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container for the login form -->
+    <div class="login-container">
+        <!-- Mockup Facebook logo -->
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" width="100">
+        
+        <!-- Login form -->
+        <form>
+            <input type="text" placeholder="Email or Phone" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit" class="login-btn">Log In</button>
+        </form>
+
+        <!-- Links for forgot password and sign up -->
+        <div class="login-links">
+            <a href="#">Forgotten password?</a>
+            <br>
+            <a href="#">Create a Page</a> for a celebrity, band or business.
+        </div>
+
+        <!-- Create account button -->
+        <button class="login-btn create-account-btn">Create New Account</button>
+    </div>
+
+
+</body>
+</html>
